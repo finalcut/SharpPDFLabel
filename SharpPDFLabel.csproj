@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SharpPDFLabel</RootNamespace>
     <AssemblyName>SharpPDFLabel</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -54,6 +54,7 @@
     <Compile Include="Enums.cs" />
     <Compile Include="LabelDefinition.cs" />
     <Compile Include="Labels\A4Labels\Avery\L5160.cs" />
+    <Compile Include="Labels\LetterLabels\Avery\L5160.cs" />
     <Compile Include="SingleSheetLabelCreator.cs" />
     <Compile Include="Labels\A4Labels\Avery\L7160.cs" />
     <Compile Include="Labels\A4Labels\Avery\L7654.cs" />
