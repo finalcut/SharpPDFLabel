@@ -62,7 +62,7 @@ I did make one optional change though - by default the labels generated this way
 	var labelDefinition = new SharpPDFLabel.Labels.A4Labels.Avery.L5160();
 
 	// Create a CustomLabelCreator, passing the required label
-	var customLabelCreator = new SharpPDFLabel.CustomLabelCreator(label);
+	var customLabelCreator = new SharpPDFLabel.CustomLabelCreator(labelDefinition);
 
 	//Add content to the labels
 	... 
